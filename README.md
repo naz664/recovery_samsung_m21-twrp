@@ -6,5 +6,5 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch twrp_m21-eng
+lunch omni_m21-eng
 mka recoveryimage
