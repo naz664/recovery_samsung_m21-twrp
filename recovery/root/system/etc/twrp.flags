@@ -35,14 +35,13 @@
 /sec_efs         ext4    /dev/block/by-name/sec_efs                 flags=backup=1;display="Sec Efs";
 /modem           emmc    /dev/block/by-name/radio                   flags=backup=1;display="Modem";
 /misc            emmc    /dev/block/by-name/misc
+/dtbo            emmc    /dev/block/by-name/dtbo                    flags=display="DTBO Image";flashimg=1;backup=1;
 /prism           ext4    /dev/block/by-name/prism                   flags=display="Prism";backup=0;
 /prism_image     emmc    /dev/block/by-name/prism                   flags=display="Prism Image";backup=1;flashimg=1;
 /optics          ext4    /dev/block/by-name/optics                  flags=display="Optics";backup=0;
 /optics_image    emmc    /dev/block/by-name/optics                  flags=display="Optics Image";backup=1;flashimg=1;
-/vendor_image    emmc    /dev/block/mapper/vendor                   flags=backup=0\;flashimg=1\;display=\"Vendor-Image\"";
-/system_image    emmc    /dev/block/mapper/system                   flags=backup=0\;flashimg=1\;display=\"System-Image\"";
-/product_image   emmc    /dev/block/mapper/product                  flags=backup=0\;flashimg=1\;display=\"Product-Image\"";
-/odm_image       emmc    /dev/block/mapper/odm                      flags=backup=0\;flashimg=1\;display=\"Odm-Image\"";
+/vbmeta_system   emmc    /dev/block/by-name/vbmeta                  flags=display="Vbmeta System";backup=1;flashimg=1;
+/vbmeta_samsung  emmc    /dev/block/by-name/vbmeta_samsung          flags=display="Vbmeta Samsung";backup=1;flashimg=1;
 
 # Storage Stuff
 /sdcard1         vfat    /dev/block/mmcblk0p1 /dev/block/mmcblk0    flags=fsflags=utf8;display="External SDCard";storage;wipeingui;removable;
