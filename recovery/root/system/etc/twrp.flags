@@ -43,6 +43,11 @@
 /vbmeta_system   emmc    /dev/block/by-name/vbmeta                  flags=display="Vbmeta System";backup=1;flashimg=1;
 /vbmeta_samsung  emmc    /dev/block/by-name/vbmeta_samsung          flags=display="Vbmeta Samsung";backup=1;flashimg=1;
 
+/vendor_image    emmc    /dev/block/mapper/vendor                   flags=backup=0\;flashimg=1\;display=\"Vendor-Image\"";
+/system_image    emmc    /dev/block/mapper/system                   flags=backup=0\;flashimg=1\;display=\"System-Image\"";
+/product_image   emmc    /dev/block/mapper/product                  flags=backup=0\;flashimg=1\;display=\"Product-Image\"";
+/odm_image       emmc    /dev/block/mapper/odm                      flags=backup=0\;flashimg=1\;display=\"Odm-Image\"";
+
 # Storage Stuff
 /sdcard1         vfat    /dev/block/mmcblk0p1 /dev/block/mmcblk0    flags=fsflags=utf8;display="External SDCard";storage;wipeingui;removable;
 /usb_otg         vfat    /dev/block/sdf1 /dev/block/sdf             flags=fsflags=utf8;display="USB OTG";storage;wipeingui;removable;
