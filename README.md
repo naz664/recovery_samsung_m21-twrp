@@ -5,6 +5,7 @@
 To build:
 
 ```sh
+export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
 lunch omni_m21-eng
 mka recoveryimage
