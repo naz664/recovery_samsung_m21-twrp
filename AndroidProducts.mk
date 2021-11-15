@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_m21.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_m21.mk
 
 COMMON_LUNCH_CHOICES := \
-		omni_m21-eng \
-		omni_m21-user \
-		omni_m21-userdebug
+		twrp_m21-eng \
+		twrp_m21-user \
+		twrp_m21-userdebug
