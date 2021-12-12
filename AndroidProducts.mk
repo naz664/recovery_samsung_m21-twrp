@@ -16,7 +16,5 @@
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_m21.mk
 
-COMMON_LUNCH_CHOICES := \
-		twrp_m21-eng \
-		twrp_m21-user \
-		twrp_m21-userdebug
+COMMON_LUNCH_CHOICES := twrp_m21-eng
+
