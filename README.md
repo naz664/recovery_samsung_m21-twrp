@@ -11,4 +11,8 @@ git clone https://github.com/naz664/recovery_samsung_m21.git device/samsung/m21 
 ```
 export ALLOW_MISSING_DEPENDENCIES=true && . build/envsetup.sh && lunch twrp_m21-eng && mka recoveryimage -j$(nproc)
 ```
- 
+
+## Credits
+- [Yilliee](https://github.com/Yilliee)
+- [Lmao](https://github.com/LMAO-armv8)
+- [Soulr344](https://github.com/soulr344)
